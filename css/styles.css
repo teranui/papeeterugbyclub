@@ -1,24 +1,32 @@
 body {
 	margin:0;
 	
-     background-image: url("en_tete.jpg") center center fixed no-repeat;
-	 background-size:cover;
-	    
+    background-image: url("asset/image/couverture1.jpg") center center fixed no-repeat;
 }
 
-a{
-	display: block;
-	width: 135px;
+h1 {    border: 3px white groove; 
+}
+div { border: 3px red; 
+}
+ul {margin:0;
+	padding:0 0 0 1px;
+	list-style-type: none;
+}
+	
+	
+a {display: block;
+	width: 138px;
 	height: 35px;
 	background: #838383;
 	color: #00Fb2f;
 	font-size: 14px;
 	line-height: 35px;
 	text-decoration: none;
-	padding-left: 15px;
+	padding-left: 15px;	
 }
-
-a:hover{background: yellow;}
-
-h1 {    border: 3px white groove; }
-div { border: 3px red; }
+	
+a:hover {background: orange;
+}
+	
+li{float:left;}
+ 
